@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+.login-form{
+	float: right;
+	margin-left: 40%;
+	
+		}
+.input-group{
+	width: 70%;
+	}
+	
+.mylogin{
+	color: #FFFFFF;
+	margin-left: 25%;
+	}
+	
+.myloginsubmit{
+	margin-left: 25%;
+	}

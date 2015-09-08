@@ -1,0 +1,91 @@
+/* For treemenu.js */
+
+.treemenu li {list-style: none;}
+
+.toggler {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    cursor: default;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.1em;
+    margin-left: -1.4em;
+    margin-right: 0.6em;
+    border: 0.1em solid transparent;
+    border-radius: 50%;
+}
+
+ li.tree-opened > .toggler:hover,
+li.tree-closed > .toggler:hover {
+    border-color: #aaa;
+    cursor: pointer;
+} 
+
+.tree { background-color:#f8f8f8;}
+.tree li > a,
+.tree li > span {
+    padding: 4pt;
+    border-radius: 4px;
+    color:#46CFB0;
+    font-size: 75%;
+}
+
+/* .tree li{
+	padding: 4pt;
+    border-radius: 4px;
+    color:#46CFB0;
+	font-size: 150%;
+	color:#46CFB0;
+} */
+
+.tree li {
+   	padding: 4pt;
+    border-radius: 4px;
+    color:#46CFB0;
+	font-size: 150%;
+	color:#46CFB0;
+}
+
+.tree li:hover{
+	
+    background-color: #7F0A97;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* #trees ul li a.selected{
+	
+    background-color: #7F0A97;
+    color: #fff;
+} */
+
+.tree li:FIRST-CHILD{
+	
+    background-color: #7F0A97;
+    color: #fff;
+    font-size: 200%;
+    margin-left: -5px; 
+}
+
+.active {
+    background-color: #34495E;
+    color: white;
+}
+
+.active li {
+    color: #fff;
+}
+
+.container{
+}
+
+.tree li.active:hover {
+    background-color: #34BC9D;
+}
+
+
+li.tree-empty > .toggler { color: #aaa; }
+li.tree-empty > span.toggler:before { content: "\2212"; }
+li.tree-closed > span.toggler:before { content: "+"; }
+li.tree-opened > span.toggler:before { content: "\2212"; }
